@@ -10,9 +10,8 @@ font-size: 62.5%;
 /*Index*/
 header {
     height: 100%;
-    font-family: "Shadows Into Light", cursive;
-    background-color: rgb(247, 247, 250);
-    background: linear-gradient(90deg, rgb(247, 247, 250) 0%, rgb(181, 86, 169) 37%, rgb(255, 47, 198) 93%);
+    background-color: rgb(207, 152, 243);
+    background: linear-gradient(90deg, rgb(125, 74, 158) 0%, rgb(86, 15, 145) 37%, rgb(255, 47, 198) 93%);
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -85,8 +84,7 @@ header {
     height: 100px;
     margin-top: 100px;
     font-family:'Shadows Into Light', cursive;
-    background-color: rgb(247, 247, 250);
-    background: linear-gradient(90deg, rgb(247, 247, 250) 0%, rgb(181, 86, 169) 37%, rgb(255, 47, 198) 93%);
+    background-color: rgb(24, 24, 43);
     position: sticky;
     top: 0px;
     .container {
@@ -128,6 +126,7 @@ header {
               }
               .tf3 {
                 font-size: 1.8rem;
+                color: aliceblue;
               }
         }
         .f5{
@@ -142,6 +141,7 @@ header {
               
               .tf2 {
                 font-size: 1rem;
+                color: aliceblue;
               }
         }
       }
