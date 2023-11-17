@@ -8,9 +8,6 @@ function saludar(){
 saludar()
 
 
-
-
-
 // Solicitar al usuario que seleccione un artículo
  const seleccion = prompt("Seleccione un artículo ingresando el número:\n\n" +
  "1. Adidas Bad Bunny\n" +
@@ -40,8 +37,8 @@ switch (seleccion) {
  }
 
  // Si la selección fue válida, solicitar la cantidad de unidades a comprar
- if (precio > 0) {
- const cantidad = prompt(`Ingrese la cantidad de unidades para el artículo seleccionado.\nPrecio: $${precio}`);
+ if (precio > 0){
+     const cantidad = prompt(`Ingrese la cantidad de unidades para el artículo seleccionado.\nPrecio: $${precio}`);
 
  // Verificar si la cantidad es válida y es un número
  if (cantidad !== null && !isNaN(cantidad) && cantidad > 0) {
@@ -51,7 +48,42 @@ switch (seleccion) {
      // Mostrar el total al usuario
      alert(`Total de la compra: $${total}`);
  } else {
-/     alert('Cantidad no válida. Inténtelo de nuevo.');
+         alert('Cantidad no válida. Inténtelo de nuevo.');
+ }
  }
 
- }
+ // Definición de objetos que representan zapatillas
+var zapatilla1 = {
+    marca: "Adidas",
+    modelo: "Bad Bunny",
+    talla: 42,
+    color: "Blanco"
+  };
+  
+  var zapatilla2 = {
+    marca: "Nike",
+    modelo: "Retro 4",
+    talla: 41,
+    color: "Negro"
+  };
+  
+  var zapatilla3 = {
+    marca: "Nike ",
+    modelo: "Jordan 1 Low",
+    talla: 40,
+    color: "Rojo"
+  };
+  
+  var zapatilla4 = {
+    marca: "Adidas ",
+    modelo: "Yeesy 350",
+    talla: 39,
+    color: "Manteca"
+  };
+  
+  // Creación del array que contiene los objetos de zapatillas
+  var arrayZapatillas = [zapatilla1, zapatilla2, zapatilla3, zapatilla4];
+  
+  // Acceder a las propiedades de una zapatilla específica
+console.log("Marca de la zapatilla 1:", arrayZapatillas[0].marca);
+console.log("Modelo de la zapatilla 2:", arrayZapatillas[1].modelo);
